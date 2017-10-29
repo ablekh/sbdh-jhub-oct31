@@ -1,0 +1,11 @@
+name: sbdc
+channels:
+  - conda-forge
+dependencies:
+  - numpy
+  - matplotlib
+  - pandas
+  - scipy
+  - seaborn
+  - pip:
+    - nbgitpuller
